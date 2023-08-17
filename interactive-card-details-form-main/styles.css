@@ -12,9 +12,13 @@
 }
 
 body {
-	font-family: "Josefin Sans", sans-serif;
+	/* font-family: "Josefin Sans", sans-serif;
 	font-family: "Source Sans 3", sans-serif;
 	font-family: "Rajdhani", sans-serif;
+	font-family: 'Josefin Sans', sans-serif; */
+	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Source Sans 3', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 }
 
 .section {
@@ -72,10 +76,10 @@ body {
 
 .cardNumbers {
 	/* text-align: center; */
-	letter-spacing: 4px;
-	word-spacing: 12px;
+	letter-spacing: 2px;
+	/* word-spacing: 2px; */
 	font-size: 30px;
-	font-weight: 700;
+	/* font-weight: 700; */
 	width: 100%;
 }
 
@@ -134,10 +138,10 @@ form > a {
 
 label {
 	text-transform: uppercase;
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 12px;
+	font-weight: 500;
 	margin-bottom: 4px;
-	font-family: "Rajdhani", sans-serif;
+	font-family: "Space Grotesk", sans-serif;
 }
 
 .input-conts {
@@ -160,9 +164,9 @@ input::-webkit-inner-spin-button {
 }
 
 input::placeholder {
-	font-family: "Rajdhani", sans-serif;
-	font-weight: 600;
-	font-size: 16px;
+	font-family: "Space Grotesk", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
 	opacity: 0.5;
 }
 
@@ -333,9 +337,9 @@ input:focus {
 
 	.cardNumbers {
 		/* text-align: center; */
-		letter-spacing: 2px;
-		word-spacing: 8px;
-		font-size: 20px;
+		letter-spacing: 3px;
+		/* word-spacing: 2px; */
+		font-size: 16px;
 		font-weight: 500;
 		/* width: 100%; */
 	}
@@ -411,6 +415,9 @@ input:focus {
 
 	#input-cvc {
 		max-width: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 	
 	/* #card-month {
